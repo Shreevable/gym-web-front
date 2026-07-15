@@ -4,11 +4,6 @@ import WeDecodeLogo from '../brand/WeDecodeLogo'
 import ScheduleCallLink from '../ui/ScheduleCallLink'
 import { transition } from '../../constants/motion'
 import { CONTENT_GUTTER, CONTENT_MAX } from '../../constants/layout'
-import { NAV_PILL_ACTIVE_CLASS, NAV_PILL_CLASS } from '../../constants/nav'
-
-function navLinkClass({ isActive }) {
-  return isActive ? NAV_PILL_ACTIVE_CLASS : NAV_PILL_CLASS
-}
 
 export default function SiteHeader() {
   const reducedMotion = useReducedMotion()
@@ -38,10 +33,7 @@ export default function SiteHeader() {
           <WeDecodeLogo />
         </NavLink>
 
-        <nav className="flex items-center gap-3 lg:gap-4">
-          <NavLink to="/contact" className={navLinkClass}>
-            Contact
-          </NavLink>
+        <nav className="flex items-center">
           <ScheduleCallLink />
         </nav>
       </div>

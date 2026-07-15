@@ -20,8 +20,6 @@ export const howItWorksContent = {
   title: 'How It Works (RLaaS)',
   subtitle:
     'End-to-end infrastructure for every modality with environments, tasks, and required compute.',
-  description:
-    'A complete ecosystem. All things come equipped with the required environments, tasks, and underlying compute infrastructure.',
 }
 
 export const workflowSteps = [
@@ -48,8 +46,6 @@ export const environmentsContent = {
   title: 'Environments & Capabilities',
   subtitle:
     'Evaluate across the full spectrum of agent modalities in realistic enterprise workflows.',
-  description:
-    'Production-grade environments, modality coverage, and post-training paradigms built for frontier teams shipping agents at scale.',
 }
 
 export const capabilityCards = [

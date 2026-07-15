@@ -15,7 +15,6 @@ export const footerAudience =
 export const footerEmail = 'info@wedecode.io'
 
 export const footerCompanyLinks = [
-  { label: 'Contact', to: '/contact' },
   { label: SCHEDULE_CALL_LABEL, href: CALENDLY_SCHEDULE_URL, external: true },
 ]
 
@@ -25,7 +24,6 @@ export const footerContactLinks = [
 ]
 
 export const footerBottomLinks = [
-  { label: 'Contact', to: '/contact' },
   { label: SCHEDULE_CALL_LABEL, href: CALENDLY_SCHEDULE_URL, external: true },
   { label: footerEmail, href: `mailto:${footerEmail}` },
   { label: 'LinkedIn', href: LINKEDIN_COMPANY_URL, external: true },

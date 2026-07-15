@@ -42,6 +42,7 @@ export default function HeroInteractiveGrid({ className }) {
         height={CELL}
         squares={squares}
         preserveAspectRatio="none"
+        enableSnake={!shouldReduceMotion}
         className="border-0 opacity-[0.35]"
         squaresClassName="stroke-white/[0.04]"
       />
